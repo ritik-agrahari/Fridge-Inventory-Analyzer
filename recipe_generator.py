@@ -6,7 +6,7 @@ import json
 import urllib.parse
 
 # Configure the Gemini API key
-genai.configure(api_key=os.getenv("GOOGLE_API_KEY", "AIzaSyCxK_S56Rr4GPajz-OljM9HssxEj6ht7ww"))
+genai.configure(api_key=os.getenv("GOOGLE_API_KEY", "Google API key"))
 
 # Load Gemini model (flash for faster response)
 model = genai.GenerativeModel("gemini-2.0-flash")

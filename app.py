@@ -13,7 +13,7 @@ import recipe_generator
 st.set_page_config(page_title="Fridge Inventory Analyzer", page_icon="🧊", layout="wide")
 
 # Configure API key
-genai.configure(api_key=os.getenv("GOOGLE_API_KEY", "AIzaSyBL7klB1rV0GXr6EGbb3h9Ab0JGYuiDheo"))
+genai.configure(api_key=os.getenv("GOOGLE_API_KEY", "Google API KEY"))
 
 # Load model
 model = genai.GenerativeModel("gemini-2.0-flash")
